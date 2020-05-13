@@ -15,13 +15,13 @@ module "ami-search" {
 | Name | Version |
 |------|---------|
 | terraform | 0.12.24 |
-| aws | 2.35.0 |
+| aws | ~>2.53.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | 2.35.0 |
+| aws | ~>2.53.0 |
 
 ## Inputs
 

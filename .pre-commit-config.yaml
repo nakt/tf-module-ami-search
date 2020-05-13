@@ -6,7 +6,6 @@ repos:
     - id: check-yaml
     - id: check-json
     - id: check-added-large-files
-    - id: detect-aws-credentials
     - id: mixed-line-ending
 
 - repo: git://github.com/antonbabenko/pre-commit-terraform
