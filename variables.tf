@@ -1,7 +1,6 @@
 variable os {
   description = "OS symbol name to search properties in os mappings"
   type        = string
-  default     = ""
 }
 
 variable "os-maps" {
