@@ -1,7 +1,9 @@
 output "ami-id" {
-  value = data.aws_ami.this.*.id
+  value       = join("", data.aws_ami.this.*.id)
+  description = "AMI ID for create instance"
 }
 
 output "owner-id" {
-  value = data.aws_ami.this.*.owner_id
+  value       = join("", data.aws_ami.this.*.owner_id)
+  description = "AMI Owner ID"
 }

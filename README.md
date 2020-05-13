@@ -34,7 +34,7 @@ module "ami-search" {
 
 | Name | Description |
 |------|-------------|
-| ami-id | n/a |
-| owner-id | n/a |
+| ami-id | AMI ID for create instance |
+| owner-id | AMI Owner ID |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
