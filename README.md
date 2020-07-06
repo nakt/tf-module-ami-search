@@ -14,14 +14,14 @@ module "ami-search" {
 
 | Name | Version |
 |------|---------|
-| terraform | 0.12.24 |
-| aws | ~>2.53.0 |
+| terraform | 0.12.28 |
+| aws | ~>2.68.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | ~>2.53.0 |
+| aws | ~>2.68.0 |
 
 ## Inputs
 
